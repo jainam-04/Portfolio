@@ -4,7 +4,7 @@ function Skills() {
       return (
             <div>
                   <div className="bg-cyan-950 skills">
-                        <h1 className='text-6xl text-center text-white mt-0 mb-10 pt-10'>Skills</h1>
+                        <h1 className='text-5xl text-center text-white mt-0 mb-10 pt-10'>Skills</h1>
                         <div className='text-white text-lg pb-10'>
                               <ul className='flex gap-20 justify-center items-center my-5 list-disc py-3'>
                                     <li>HTML</li>
