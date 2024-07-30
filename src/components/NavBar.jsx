@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
       return (
-            <div>
+            <div className='sticky top-0'>
                   <div className="flex justify-around items-center bg-[#005f99] p-6">
                         <div>
                               <ul className='flex gap-28 items-center text-lg text-white'>
