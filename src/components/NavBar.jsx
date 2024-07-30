@@ -4,12 +4,9 @@ import { Link } from 'react-router-dom'
 function NavBar() {
       return (
             <div>
-                  <div className="flex justify-around items-center bg-blue-800 p-6">
+                  <div className="flex justify-around items-center bg-[#005f99] p-6">
                         <div>
-                              <h1 className='text-2xl text-white'><Link to="/">Jainam Rupani</Link></h1>
-                        </div>
-                        <div>
-                              <ul className='flex gap-20 items-center text-lg text-white'>
+                              <ul className='flex gap-28 items-center text-lg text-white'>
                                     <li>
                                           <Link to="/">Home</Link>
                                     </li>
