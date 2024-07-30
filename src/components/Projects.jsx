@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       <div className="bg-cyan-950 text-white py-5">
-        <h1 className="text-5xl text-center">Projects</h1>
+        <h1 className="text-5xl text-center font-bold">Projects</h1>
         <div className="flex justify-center items-center gap-28">
           <div className="py-10 mx-5 bg-gray-600 px-5 mt-5 rounded-xl">
             <img src={clinic} alt="clinicImage" className="rounded-lg" />
