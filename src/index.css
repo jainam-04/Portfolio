@@ -12,6 +12,25 @@ button:hover {
   color: white;
 }
 
+.navLink:hover {
+  text-transform: uppercase;
+}
+
+.multicolortext {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 @keyframes slideInLeft {
   from {
     opacity: 0;
@@ -20,6 +39,28 @@ button:hover {
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes slideInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -34,34 +75,53 @@ button:hover {
   }
 }
 
+@keyframes pop-up {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .skill-section {
   opacity: 0;
-}
-
-.skill-section-odd {
-  animation: slideInLeft 1s forwards;
-}
-
-.skill-section-even {
-  animation: slideInRight 1s forwards;
+  animation-duration: 1s;
 }
 
 .skill-section:nth-of-type(1) {
-  animation-delay: 0.5s;
+  animation-name: slideInTop;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
 }
 
 .skill-section:nth-of-type(2) {
-  animation-delay: 1s;
+  animation-name: slideInLeft;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 .skill-section:nth-of-type(3) {
-  animation-delay: 1.5s;
+  animation-name: pop-up;
+  animation-delay: 3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
 }
 
 .skill-section:nth-of-type(4) {
-  animation-delay: 2s;
+  animation-name: slideInRight;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 
 .skill-section:nth-of-type(5) {
-  animation-delay: 2.5s;
+  animation-name: slideInDown;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
 }
