@@ -2,7 +2,7 @@ import React from 'react'
 import linkedin from '../assets/imgs/linkedin.png'
 import github from '../assets/imgs/github.png'
 import leetcode from '../assets/imgs/leetcode.jpg'
-import profile from '../assets/imgs/profile.jpg'
+import profile from '../assets/imgs/profile.png'
 import resume from '../assets/resume/JainamRupani.pdf'
 
 function About() {
@@ -25,7 +25,7 @@ function About() {
                               </div>
                         </div>
                         <div>
-                              <img className='h-72 w-72 object-left rounded-full text-center' src={profile} alt="profileImage" />
+                              <img className='h-96 w-96 object-left rounded-full text-center' src={profile} alt="profileImage" />
                         </div>
                   </div>
             </div>

@@ -57,7 +57,7 @@ function Contacts() {
               rows={10}
               name="message"
               placeholder="Message"
-              className="bg-cyan-950 text-white border-2 border-white rounded-xl py-3 px-4 w-[60vw]"
+              className="bg-cyan-950 text-white border-2 border-white rounded-xl py-3 px-4 w-[60vw] resize-none"
               required
             ></textarea>
             <button
