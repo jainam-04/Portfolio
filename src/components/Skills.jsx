@@ -8,7 +8,7 @@ function Skills() {
           Skills
         </h1>
         <div className="text-white text-lg pb-10">
-          <div className="skill-section">
+          <div className="skill-section-odd skill-section">
             <ul className="flex gap-20 justify-center items-center my-5 py-3 list-disc">
               <li>HTML</li>
               <li>CSS</li>
@@ -18,7 +18,7 @@ function Skills() {
             </ul>
             <hr className="w-[50vw] ms-96" />
           </div>
-          <div className="skill-section">
+          <div className="skill-section-even skill-section">
             <ul className="flex gap-20 justify-center items-center my-5 py-3 list-disc">
               <li>Java</li>
               <li>AWT</li>
@@ -27,7 +27,7 @@ function Skills() {
             </ul>
             <hr className="w-[40vw] ms-[30vw]" />
           </div>
-          <div className="skill-section">
+          <div className="skill-section-odd skill-section">
             <ul className="flex gap-20 justify-center items-center my-5 py-3 list-disc">
               <li>Git</li>
               <li>GitHub</li>
@@ -37,14 +37,14 @@ function Skills() {
             </ul>
             <hr className="w-[55vw] ms-[23vw]" />
           </div>
-          <div className="skill-section">
+          <div className="skill-section-even skill-section">
             <ul className="flex gap-20 justify-center items-center my-5 py-3 list-disc">
               <li>SQL</li>
               <li>DBMS</li>
             </ul>
             <hr className="w-[20vw] ms-[40vw]" />
           </div>
-          <div className="skill-section">
+          <div className="skill-section-odd skill-section">
             <ul className="flex gap-20 justify-center items-center my-5 py-3 list-disc">
               <li>Team-Work</li>
               <li>Problem-Solving</li>

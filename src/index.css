@@ -12,7 +12,7 @@ button:hover {
   color: white;
 }
 
-@keyframes slideIn {
+@keyframes slideInLeft {
   from {
     opacity: 0;
     transform: translateX(-100%);
@@ -23,9 +23,27 @@ button:hover {
   }
 }
 
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .skill-section {
   opacity: 0;
-  animation: slideIn 1s forwards;
+}
+
+.skill-section-odd {
+  animation: slideInLeft 1s forwards;
+}
+
+.skill-section-even {
+  animation: slideInRight 1s forwards;
 }
 
 .skill-section:nth-of-type(1) {
