@@ -7,16 +7,16 @@ function NavBar() {
       <div className="flex justify-around items-center bg-[#005f99] p-6">
         <div>
           <ul className="flex gap-28 items-center text-lg text-white font-bold">
-            <li className="navLink">
+            <li className="hover:opacity-75">
               <Link to="/">Home</Link>
             </li>
-            <li className="navLink">
+            <li className="hover:opacity-75">
               <Link to="/skills">Skills</Link>
             </li>
-            <li className="navLink">
+            <li className="hover:opacity-75">
               <Link to="/projects">Projects</Link>
             </li>
-            <li className="navLink">
+            <li className="hover:opacity-75">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>

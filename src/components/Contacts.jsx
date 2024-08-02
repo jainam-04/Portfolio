@@ -35,7 +35,7 @@ function Contacts() {
         <h1 className="text-center py-5 text-5xl font-bold">Contact</h1>
         <div>
           <form
-            className="flex justify-center items-center flex-col text-lg gap-10 py-10 font-bold"
+            className="flex justify-center items-center flex-col text-lg gap-10 py-10 font-bold contact-form"
             onSubmit={onSubmit}
           >
             <input

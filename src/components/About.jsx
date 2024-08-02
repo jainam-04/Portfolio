@@ -9,8 +9,17 @@ function About() {
   return (
     <div>
       <div className="bg-cyan-950 text-white py-10 flex justify-center items-center gap-20">
+        <div>
+          <img
+            className="h-96 w-96 rounded-full image"
+            src={profile}
+            alt="profileImage"
+          />
+        </div>
         <div className="text-center">
-          <h1 className="text-6xl py-5 font-bold multicolortext">Jainam Rupani</h1>
+          <h1 className="text-6xl py-5 font-bold multicolortext">
+            Jainam Rupani
+          </h1>
           <h4 className="text-3xl py-5">
             Java <br /> Developer
           </h4>
@@ -38,13 +47,6 @@ function About() {
               </button>
             </a>
           </div>
-        </div>
-        <div>
-          <img
-            className="h-96 w-96 rounded-full image"
-            src={profile}
-            alt="profileImage"
-          />
         </div>
       </div>
     </div>
